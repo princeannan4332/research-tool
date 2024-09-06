@@ -1,6 +1,5 @@
 python-dotenv
 langchain
-langchain_openai
 langchain-community
 openai
 PyPDF2
