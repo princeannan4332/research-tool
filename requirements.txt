@@ -1,9 +1,0 @@
-python-dotenv
-langchain
-langchain_openai
-faiss-cpu
-langchain-community
-openai
-PyPDF2
-unstructured
-
