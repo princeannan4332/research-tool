@@ -2,7 +2,7 @@ python-dotenv
 langchain
 langchain_openai
 langchain-community
-langchain_pinecone
+pinecone-client
 openai
 PyPDF2
 unstructured
