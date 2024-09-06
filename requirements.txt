@@ -5,3 +5,4 @@ unstructured
 python-dotenv
 langchain-pinecone
 openai
+tiktoken
