@@ -1,0 +1,9 @@
+python-dotenv
+langchain
+langchain_openai
+langchain-community
+langchain_pinecone
+openai
+PyPDF2
+unstructured
+faiss
