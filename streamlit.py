@@ -17,11 +17,6 @@ from langchain.vectorstores import Pinecone
 from dotenv import load_dotenv
 
 
-load_dotenv()
-
-os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
-os.environ["PINECONE_API_KEY"]= os.getenv('PINECONE_API_KEY')#get from app.pinecone.io
-
 
 st.title("Nutri Kid AI Research Tool 🧑‍🍼")
 st.sidebar.title("News Article Or Research URLs")
