@@ -141,7 +141,7 @@ if process_url_clicked:
     docs = text_splitter.split_documents(data)
     # create embeddings and save it to FAISS index
     embeddings = OpenAIEmbeddings()
-    vectorstore=PineconeVectorStore.from_documents(docs,embeddings,index_name="unicef")
+    vectorstore=PineconeVectorStore.from_documents(docs,embeddings,index_name="research")
     main_placeholder.text("Embedding Vector Started Building...✅✅✅")
     time.sleep(2)
 
@@ -151,7 +151,7 @@ if process_url_clicked:
 
 
 
-index_name='unicef'#name of the index we created in pinecone
+index_name='research'#name of the index we created in pinecone
 
 query = main_placeholder.text_input("Question: ")
 if query:
