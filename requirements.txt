@@ -3,4 +3,5 @@ langchain-community
 PyPDF2
 unstructured
 python-dotenv
+langchain-pinecone
 
