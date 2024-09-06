@@ -11,10 +11,11 @@ from langchain.document_loaders import UnstructuredURLLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.docstore.document import Document
+from dotenv import load_dotenv
 
+load_dotenv()
 
-
-api_key="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"
+api_key=os.getenv('api_key')
 os.environ['OPENAI_API_KEY']=api_key
 
 st.title("Kidi AI Research Tool 🧑‍🍼")
