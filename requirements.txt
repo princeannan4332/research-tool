@@ -5,3 +5,7 @@ faiss-cpu
 langchain-community
 openai
 PyPDF2
+unstructured
+libmagic
+python-magic
+python-magic-bin
