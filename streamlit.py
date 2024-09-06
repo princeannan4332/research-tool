@@ -19,8 +19,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ['OPENAI_API_KEY']=os.getenv('api_key')
-os.environ["PINECONE_API_KEY"]= os.getenv('pinecone_api_key')#get from app.pinecone.io
+os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
+os.environ["PINECONE_API_KEY"]= os.getenv('PINECONE_API_KEY')#get from app.pinecone.io
 
 
 st.title("Nutri Kid AI Research Tool 🧑‍🍼")
